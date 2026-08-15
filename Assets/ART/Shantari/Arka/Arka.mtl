@@ -1,0 +1,12 @@
+# Blender 5.1.1 MTL File: 'Arka.blend'
+# www.blender.org
+
+newmtl tripo_mat_2d674ed2-0227-4a4b-ae3f-19eb1e288612
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd D:/#WORK/EEF_2026/PVN/textures/sea_arch_3d_model_basecolor.jpg
