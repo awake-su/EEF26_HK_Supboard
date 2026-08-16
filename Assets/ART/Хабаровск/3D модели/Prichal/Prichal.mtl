@@ -1,0 +1,79 @@
+# Blender 5.1.1 MTL File: 'MODELS_001.blend'
+# www.blender.org
+
+newmtl Black
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 1.000000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Gray
+Kd 0.033821 0.033821 0.033821
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.736364
+Pm 0.640909
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Light
+Kd 0.700012 0.323737 0.080108
+Ks 0.500000 0.500000 0.500000
+Ke 7.000120 3.237370 0.801080
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 1.000000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl MetallFence.001
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd D:/#WORK/EEF_2026/PVN/PVN_SUP_Models/Habarovsk/KhabarovskPristan/textures/Metal_Grill_024_basecolor.jpg
+map_Pm D:/#WORK/EEF_2026/PVN/PVN_SUP_Models/Habarovsk/KhabarovskPristan/textures/Metal_Grill_024_metallic.jpg
+map_Pr D:/#WORK/EEF_2026/PVN/PVN_SUP_Models/Habarovsk/KhabarovskPristan/textures/Metal_Grill_024_roughness.jpg
+map_d D:/#WORK/EEF_2026/PVN/PVN_SUP_Models/Habarovsk/KhabarovskPristan/textures/Metal_Grill_024_opacity.png
+map_Bump -bm 1.000000 D:/#WORK/EEF_2026/PVN/PVN_SUP_Models/Habarovsk/KhabarovskPristan/textures/Metal_Grill_024_normal.jpg
+
+newmtl Prichal
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Prichal_Diffuse.png
+map_Pm Prichal_Metallic.png
+map_Pr Prichal_Roughness.png
+map_Bump -bm 1.000000 Prichal_Normal.png

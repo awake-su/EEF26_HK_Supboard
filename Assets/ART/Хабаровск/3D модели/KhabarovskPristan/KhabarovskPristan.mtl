@@ -1,0 +1,301 @@
+# Blender 5.1.1 MTL File: 'KhabarovskPristan.blend'
+# www.blender.org
+
+newmtl Black_painted_metal.001
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/metal05a_diffuse.jpg
+map_Pr textures/metal05_roughness.jpg
+map_Bump -bm 2.000000 textures/metal05_normal_opengl.jpg
+
+newmtl Blue_Metal_Door
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/3_BaseColor.jpg
+map_Pm textures/3_Metallic.jpg
+map_Pr textures/3_Roughness.jpg
+map_Bump -bm 1.000000 textures/3_Normal.jpg
+
+newmtl Concrete_wall
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/Cocrete wall_BaseColor.jpg
+map_Pr textures/Cocrete wall_Roughness.jpg
+map_Bump -bm 2.300000 textures/Cocrete wall_Normal.jpg
+
+newmtl Green_painted_metal
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.500000
+Pm 0.672727
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Bump -bm 2.000000 textures/metal05_normal_opengl.jpg
+
+newmtl KhabarovskPristan
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/KhabarovskPristan_Diffuse.png
+map_Pm textures/KhabarovskPristan_Metallic.png
+map_Pr textures/KhabarovskPristan_Roughness.png
+map_Bump -bm 1.000000 textures/KhabarovskPristan_Normal.png
+
+newmtl Life_Buoy_Ring
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/Pier Props_DefaultMaterial_BaseColor.1001.jpg
+map_Pm textures/Pier Props_DefaultMaterial_Metallic.1001.jpg
+map_Pr textures/Pier Props_DefaultMaterial_Roughness.1001.jpg
+
+newmtl Material.001
+Kd 0.219933 0.219933 0.219933
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 1.000000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl MetallFence
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/Metal_Grill_024_basecolor.jpg
+map_Pm textures/Metal_Grill_024_metallic.jpg
+map_Pr textures/Metal_Grill_024_roughness.jpg
+map_d textures/Metal_Grill_024_opacity.png
+map_Bump -bm 1.000000 textures/Metal_Grill_024_normal.jpg
+
+newmtl Roof
+Kd 0.019653 0.037140 0.040436
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.546154
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Steel_Dimond_Rusty
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/plane_DefaultMaterial_BaseColor.jpg
+map_Pm textures/plane_DefaultMaterial_Metallic.jpg
+map_Pr textures/plane_DefaultMaterial_Roughness.jpg
+map_Bump -bm 1.000000 textures/plane_DefaultMaterial_Normal.jpg
+
+newmtl Wall_Paint_(White_Wall_Paint)
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+
+newmtl White_painted_metal
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pm 0.523077
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/metal05_diffuse.jpg
+map_Ks textures/metal05_specular.jpg
+map_Pr textures/metal05_roughness.jpg
+map_Bump -bm 1.000000 textures/metal05_normal_opengl.jpg
+
+newmtl black_plasitc
+Kd 0.010021 0.010021 0.010021
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Pr 0.200000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl catwalk
+Kd 0.444730 0.444730 0.444730
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.400000
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl nuts_and_bolts
+Kd 0.355178 0.355178 0.355178
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.400000
+Pm 0.980000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl standing_flag_mat.036
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd textures/Standing_flag_mat_BaseColor.jpg
+map_Pm textures/Standing_flag_mat_Metallic.jpg
+map_Pr textures/Standing_flag_mat_Roughness.jpg
+map_Bump -bm 1.000000 textures/Standing_flag_mat_Normal.jpg
+
+newmtl steel
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.400000
+Pm 1.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl white_plastic
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Pr 0.200000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl window_glass
+Kd 0.575569 0.754387 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.300000
+illum 9
+Pr 0.100000
+Pm 0.000000
+
+newmtl yellow_steel
+Kd 0.026442 0.026442 0.026442
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 1.000000
+Pm 0.600000
+Ps 0.000000
+Pc 1.600000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000

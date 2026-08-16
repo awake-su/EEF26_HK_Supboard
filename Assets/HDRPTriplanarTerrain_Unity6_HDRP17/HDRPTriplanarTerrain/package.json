@@ -1,0 +1,13 @@
+{
+  "name": "su.awake.hdrp-triplanar-terrain",
+  "version": "1.0.0",
+  "displayName": "Awake HDRP Triplanar Terrain",
+  "description": "Three-layer UV-free triplanar terrain function for Unity 6 HDRP.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "17.0.4"
+  },
+  "author": {
+    "name": "Awake"
+  }
+}
