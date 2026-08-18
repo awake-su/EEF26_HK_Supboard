@@ -224,7 +224,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    supportVolumetricClouds: 1
+    supportVolumetricClouds: 0
     supportLightLayers: 1
     renderingLayerMaskBuffer: 0
     supportWater: 1
@@ -326,7 +326,7 @@ MonoBehaviour:
         useDynamicViewportRescale: 1
       cachedPunctualLightShadowAtlas: 4096
       cachedAreaLightShadowAtlas: 4096
-      allowDirectionalMixedCachedShadows: 0
+      allowDirectionalMixedCachedShadows: 1
       shadowResolutionDirectional:
         m_Values: 00020000000400000008000000100000
         m_SchemaId:

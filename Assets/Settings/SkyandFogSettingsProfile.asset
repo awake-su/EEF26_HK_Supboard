@@ -674,7 +674,7 @@ MonoBehaviour:
       m_Value: 0
     tint:
       m_OverrideState: 0
-      m_Value: {r: 1, g: 0, b: 0.07898474, a: 1}
+      m_Value: {r: 0.043137074, g: 0, b: 1, a: 1}
     exposure:
       m_OverrideState: 0
       m_Value: 0.68

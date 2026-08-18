@@ -205,7 +205,6 @@ MonoBehaviour:
       - rid: 6812148729709854727
       - rid: 6812148729709854728
       - rid: 6812148729709854729
-      - rid: 6812148729709854731
       - rid: 6812148729709854732
       - rid: 6812148729709854733
       - rid: 6812148729709854734
@@ -325,8 +324,8 @@ MonoBehaviour:
           materialQuality: 0
         m_RealtimeReflection:
           bitDatas:
-            data1: 139923391864653
-            data2: 13763001565320773656
+            data1: 139923417030477
+            data2: 13763001568541999128
           lodBias: 1
           lodBiasMode: 0
           lodBiasQualityLevel: 0
