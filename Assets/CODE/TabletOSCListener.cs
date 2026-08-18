@@ -22,6 +22,8 @@ public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
         receiver.LocalPort = port;
 
         receiver.Bind("/1/", OnActiveMode);
+        receiver.Bind("/2/", OnActiveMode);
+        receiver.Bind("/3/", OnActiveMode);
         receiver.Bind("/stop", OnStop);
         receiver.Bind("/changeLanguage", OnChangeLanguage);
     }
