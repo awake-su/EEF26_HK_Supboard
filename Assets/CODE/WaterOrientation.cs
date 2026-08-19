@@ -15,6 +15,11 @@ public class WaterOrientationFollower : MonoBehaviour
     private float _currentAngle;
     private bool _initialized;
 
+    
+    /// <summary>
+    // Это всё крайне экспериментально и плохо работатет, потому что любые изменения воды в движении или скорости крайне сильно заметны на камере,
+    // так как вода подчиненна какой то своей логике
+    /// </summary>
     void Update()
     {
         if (targetSurface == null || source == null) return;

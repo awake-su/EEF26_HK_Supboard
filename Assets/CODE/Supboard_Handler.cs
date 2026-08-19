@@ -28,23 +28,19 @@ namespace AwakeComponents.Veslo
 
         private void Update()
         {
-            
             // Если уже достигли конца — полностью прекращаем движение
             if (reachedEnd)
                 return;
-
-            // Left and Right both perform the same stroke
+            
             if (Input.GetKeyDown(KeyCode.LeftArrow) ||
                 Input.GetKeyDown(KeyCode.RightArrow))
             {
                 targetSpeed += speedPerPress;
             }
-
-            // Gradually lose speed
+            
             targetSpeed -= deceleration * Time.deltaTime;
             targetSpeed = Mathf.Clamp(targetSpeed, 0f, maxSpeed);
 
-            // Smoothly approach target speed
             currentSpeed = Mathf.MoveTowards(
                 currentSpeed,
                 targetSpeed,
@@ -64,7 +60,7 @@ namespace AwakeComponents.Veslo
             splineAnimate.NormalizedTime +=
                 normalizedSpeed * Time.deltaTime;
 
-            // Проверяем конец spline
+            
             if (splineAnimate.NormalizedTime >= 1f)
             {
                 splineAnimate.NormalizedTime = 1f;
