@@ -3,6 +3,7 @@ using UnityEngine;
 using extOSC;
 using UnityEngine.SceneManagement;
 
+[ComponentInfo("1.0", "22.08.2026")]
 public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
 {
     [SerializeField] [DebugUIField] private int port = 7001;
@@ -16,14 +17,14 @@ public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
         receiver = gameObject.AddComponent<OSCReceiver>();
         receiver.LocalPort = port;
 
-        receiver.Bind("/1/", OnActiveMode);
-        receiver.Bind("/2/", OnActiveMode);
-        receiver.Bind("/3/", OnActiveMode);
+        receiver.Bind("/1", OnActiveMode);
+        receiver.Bind("/2", OnActiveMode);
+        receiver.Bind("/3", OnActiveMode);
         receiver.Bind("/stop", OnStop);
         receiver.Bind("/changeLanguage", OnChangeLanguage);
     }
@@ -32,13 +33,13 @@ public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
     {
         switch (message.ToString())
         {
-            case "/1/":
+            case "/1":
                 SceneManager.LoadScene("Khabarovsk");
                 break;
-            case "/2/":
+            case "/2":
                 SceneManager.LoadScene("Komsomolsk");
                 break;
-            case "/3/":
+            case "/3":
                 SceneManager.LoadScene("Shantari");
                 break;
         }
