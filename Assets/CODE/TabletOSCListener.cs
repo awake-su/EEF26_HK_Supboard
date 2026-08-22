@@ -17,7 +17,6 @@ public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
 
     private void Awake()
     {
-        //DontDestroyOnLoad(gameObject);
 
         receiver = gameObject.AddComponent<OSCReceiver>();
         receiver.LocalPort = port;
@@ -31,7 +30,7 @@ public class TabletOSCListener : MonoBehaviour, IDebuggableComponent
 
     private void OnActiveMode(OSCMessage message)
     {
-        switch (message.ToString())
+        switch (message.Address)
         {
             case "/1":
                 SceneManager.LoadScene("Khabarovsk");
